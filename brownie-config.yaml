@@ -1,0 +1,11 @@
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+networks:
+  default: development
+  sepolia:
+    host: https://sepolia.infura.io/v3/9a0ad6308f4f4a9cb936060547bf7a26
+    gas_price: auto
+    gas_limit: auto
